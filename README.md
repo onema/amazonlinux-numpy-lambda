@@ -14,7 +14,7 @@ pandas pre-installed to reduce build and deployment times. Nodejs is also instal
 Install
 -------
 ```bash
-docker run -t -d -v /path/to/code:/app onema/amazonlinux-numpy-lambda:latest
+docker run -t -d -v /path/to/code:/app onema/amazonlinux4lambda:latest
 ```
 
 
