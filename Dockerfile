@@ -1,4 +1,4 @@
-FROM amazonlinux:latest
+FROM amazonlinux:2017.09.1.20180409
 
 # Install node and related tools
 ENV NODE_VERSION 8.8.1
