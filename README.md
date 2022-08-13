@@ -24,11 +24,3 @@ Reference
 - [Amazon Linux Docker Images](https://github.com/amazonlinux/container-images/tree/master)
 - [How to install Python3 on amazon linux](https://computingforgeeks.com/how-to-install-python-on-amazon-linux/)
 
-```bash
-aws lambda publish-layer-version  \
-    --layer-name Python39-NumPy1x  \
-    --description "Latest version of NumPy learn for python 3.9"  \
-    --license-info "BSD"  \
-    --content S3Bucket=$BUCKET_NAME,S3Key=Python39-NumPy1x.zip  \
-    --compatible-runtimes python3.9
-```
